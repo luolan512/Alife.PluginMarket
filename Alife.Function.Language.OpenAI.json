@@ -7,6 +7,7 @@
     "官方",
     "语言模型"
   ],
+  "platforms": ["Windows", "Android"],
   "source": "https://github.com/BDFFZI/Alife",
   "dependencies": {},
   "environments": {
@@ -16,6 +17,16 @@
     }
   },
   "releases": {
+    "5.0.0": {
+      "date": "2026-10-23 01:08:34",
+      "note": "feat: 适配 Alife 5.0.0",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.Language.OpenAI/5.0.0.zip"
+    },
+    "4.6.1": {
+      "date": "2026-10-12 20:52:43",
+      "note": "fix:多模态文件类型改按文件头嗅探，修复无后缀链接识别失败问题\nfix:下载到非图片文本时直接报错而非发送",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.Language.OpenAI/4.6.1.zip"
+    },
     "4.6.0": {
       "date": "2026-10-9 00:18:57",
       "note": "feat:多模块内容增加批量加载的支持",
